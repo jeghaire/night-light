@@ -7,7 +7,7 @@ basic.forever(function () {
             # # # # #
             # # # # #
             `)
-    } else if (input.lightLevel() < 150 && input.lightLevel() > 50) {
+    } else if (input.lightLevel() > 50 && input.lightLevel() < 150) {
         basic.showLeds(`
             . . . . .
             . # # # .
