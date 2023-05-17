@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="4]|z3/@^6V@!!s3*WAR%" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="3=`w|KZU`l^H5`A.!!|T"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="e9k.-8ZMo,IejPi(W`=-"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="|Evg=5V+K@xq3f]U-xHw"></block></value><value name="B"><shadow type="math_number" id="|QWN:iOUd]!Kr:QYB~#="><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="^LXSD#]Ozp@|@]01;,UY"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="Uh9(#3Sxd3atdW|i-l3s"><field name="OP">AND</field><value name="A"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="FQz`7UG%D=XG!i{!6suw"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="NmPU{$=AQeBJW@dN=qR7"></block></value><value name="B"><shadow type="math_number" id="RV+rPR9:@#$5-Q},gU-_"><field name="NUM">150</field></shadow></value></block></value><value name="B"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="^fcAKlErnYzD,AYT3$BG"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id=":}k2x|:#o_A6sZk5Ty|j"></block></value><value name="B"><shadow type="math_number" id="5~3%9AY?d$rnG{W;$(1B"><field name="NUM">50</field></shadow></value></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="B@hrx1.Wiyc9*3jDL-/f"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="LMA-rx%#[0p+X`/5_{3n"></block></statement></block></statement></block></xml>
